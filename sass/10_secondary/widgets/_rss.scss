@@ -1,0 +1,55 @@
+.widget-area {
+	.rss-date,
+	.widget_rss cite {
+		display: block;
+		color: $c1;
+		margin: 5px 0;
+	}
+
+	.widget_rss {
+		span {
+			color: $primary;
+		}
+		cite {
+			color: $c2;
+		}
+		a {
+			color: $secondary;
+			font-family: $heading_font;
+			
+			
+			&:hover {
+				color: $primary;
+			}
+		}
+
+		.widget-title .rsswidget {
+			color: $secondary;
+			& img{
+				margin:0;
+			}
+		}
+
+		ul {
+			padding-left:0px !important;
+			 li {
+				background: none;
+				padding-left: 0;
+				list-style:none;
+				border-bottom:1px solid $c1;
+				padding-top:15px;
+				&:last-child {
+					border-bottom:0;
+				}
+				a {
+					font-size:16px;
+				}
+			}
+		}
+	}
+
+	.rssSummary {
+		font-size: .95em;
+		padding-top:5px;
+	}
+}

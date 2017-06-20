@@ -1,0 +1,34 @@
+.site-content {
+	padding-top: 50px;
+	margin-bottom: 100px;
+}
+
+
+.site-main {
+	margin: 1.5em 0;
+	article.post {
+		padding: 20px 0;
+	}
+}
+
+.single {
+	.site-main article.post {
+		padding-top: 0;
+	} 
+}
+
+@import "asides";
+
+@import "social";
+
+@import "comments"; 
+
+@import "posts-and-pages";
+
+@import "front-page";
+
+@import "frontpage_flex_slider";
+
+@import "woocommerce";
+
+

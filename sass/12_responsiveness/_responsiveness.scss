@@ -1,0 +1,217 @@
+@media only screen and (min-width: 960px) {
+  .main-navigation ul ul li:hover > ul {
+    right: 100%;
+  }
+
+}
+@media only screen and (max-width: 960px) {       
+ .main-navigation ul ul li:hover > ul {
+    left: 100%;
+  }
+ 
+  .top-nav {
+    .container .eight.columns {
+      width: 100%;
+      text-align: center;
+      li {
+        display: inline-block;
+        float: none;
+      }
+    }
+  } 
+  .comment-form input[type=text],
+  .comment-form input[type=email],
+  .comment-form input[type=text] {
+    width: 48%;
+  }
+ 
+}
+
+@media only screen and (max-width: 1024px) {   
+ 
+   .widget_nav_menu ul.sub-menu li {
+    padding-left: 20px;
+  }
+  .post-wrapper .latest-post {
+      margin-left:0;
+      margin-right:0;
+  }
+  
+}
+@media only screen and (max-width: 850px) {
+  .widget_nav_menu ul.sub-menu li {
+    padding-left: 15px !important;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px) {   
+  .breadcrumb-left,.breadcrumb-right {    
+    text-align: center!important;
+  }
+  .breadcrumb,.branding {
+    .container .eight.columns {
+       width: 100%;   
+       text-align: center;   
+    }
+    .site-title,.site-description {
+      text-align: center;
+    }
+    .top-right {
+      text-align: center;
+      ul {
+        float: none;
+      }
+      li {
+        float: none;
+        display: inline-block;
+      }
+      li:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+  .post-wrapper .latest-post {
+    text-align: center;
+  }
+  .widget_calendar table th, .widget_calendar table td {
+    padding: 7px 2px;
+  }
+  table td {
+    padding:7px 2px;
+  }
+  .top-nav  {
+    padding-top: 10px;
+  }
+
+  .site-branding {
+    text-align: center;
+    img {
+      margin: 0 auto;
+    }
+  }
+
+  .main-navigation {
+    margin: 0;
+    float:none;
+    a {
+      padding: 15px;
+    }
+  }
+
+  #secondary {
+    padding-left: 0;
+  }
+
+  .flexslider .flex-caption {
+    position: static;
+    background-color: $c3;
+    padding: 30px 20px;
+    min-height: 300px;
+    width: 100%;
+  }
+
+  .flexslider ol.flex-control-paging {
+    bottom: 0;
+  }
+
+  .post-wrapper .latest-post a.btn-readmore {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .latest-post {
+    border: 1px solid $c2;
+    margin-bottom: 50px !important;
+  }
+  .nav-wrap .search-form {
+    margin-bottom: 30px;
+  }
+  .copyright {
+    padding-bottom:0!important;
+  }
+  .site-info .left-sidebar {
+    padding-bottom: 10px!important;
+  }
+  #secondary {
+    left:0!important;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  #commentform .comment-form-author,
+  #commentform .comment-form-email,
+  #commentform .comment-form-url {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+
+ .comment-form input[type=text],
+  .comment-form input[type=email],
+  .comment-form input[type=text] {
+    width: 100%;
+  }
+   .comment-form input[type=email] {
+      margin-left:0px !important;
+      margin-right:0px !important;
+   }
+
+  .nav-links .nav-previous,
+  .nav-links .nav-next,
+  .comment-navigation .nav-previous,
+  .comment-navigation .nav-next {
+    width: 100%;
+    float: none;
+    margin:0px;
+    margin-bottom: 10px;
+  }
+
+  .post-navigation .nav-links a,
+  .comment-navigation .nav-previous a,
+  .comment-navigation .nav-next a {
+    display: block;
+    text-align:center;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .main-navigation {
+    padding: 10px 0;
+    button.menu-toggle {
+      margin: 0 auto;
+      @include font-size(1.5);
+      background: $secondary;
+      border: 1px solid $secondary;
+      &:hover { 
+          background: $primary;
+      }
+    } 
+    .menu-all-pages-container {
+      padding-top:0;
+    }   
+  }
+
+  .flex-recent-posts li {
+    width: 100%;
+    img {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  ol.comment-list ol.children {
+    margin-left: 1em;
+  }
+
+  .flexslider ol.flex-control-paging li a {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-width: 3px;
+  } 
+
+}

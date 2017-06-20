@@ -1,0 +1,319 @@
+.hentry.sticky {
+	color: $secondary;
+	padding: 25px !important;
+	padding-bottom:50px !important;
+	@include border-radius(5px);
+	position: relative;
+	margin-bottom: 70px !important;
+	border:1px solid $c1;
+
+	&:after {
+		position: absolute;       
+		content:"";
+		left:0;
+		bottom: -40px;
+		height:3px;
+		width: 100%;
+		border-bottom: 1px solid $c1;  
+	}
+	.entry-meta .date-structure .dd {
+		color: $c2;
+	}
+	
+	h1.entry-title { 
+		a {
+	 		color: $secondary;
+	 		&:hover {
+	 			color: $secondary;    
+	 		}	
+	 	}
+	 }
+	 .entry-content {
+	 	ul {
+	 		li{
+	 			list-style:square;
+	 		}
+	 	}
+	 }
+	 a {
+	 	color: $c2;
+
+	 	&:hover {
+	 		color: $c3;
+	 	}
+	}
+
+	span i {
+		color: $c2;
+
+	}
+	span:hover {
+		i,a{
+			color: $secondary;
+		}
+	}
+
+	code {
+	 	color: $black;
+	 }
+	 .entry-footer {
+	 	span {
+	 		background-color:$primary;
+	 		color:$white;
+	 		i,a {
+	 			color:$white;
+	 		}
+	 	}
+	 }
+	.entry-footer,
+	.entry-meta {
+		margin-bottom: 0;
+	 	border: 0;
+	 	a {
+	 		color: $c2;
+	 		&:hover {
+	 			color: $secondary;
+	 		}
+	 	}
+	 }
+
+}
+
+.hentry.post {
+	margin: 0 0 1em;
+	border-bottom: 1px solid $c1;
+	h1 a {
+		color: $black;
+		&:hover {
+			color: $primary;
+		}
+	}
+}
+
+.byline,
+.updated:not(.published){}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.home .entry-meta span {
+	font-size: 14px;
+}
+
+.sticky {
+	.entry-meta,
+	.entry-footer {
+		background : none;
+		padding: 0;
+	}
+}
+
+.entry-meta .date-structure {
+	display: inline-block;
+	text-align: center;
+	.dd {
+		color: $c2;
+	}
+}
+
+.entry-meta,.entry-footer {
+	margin: 5px 0px 25px 0px;
+	position: relative;
+	 
+}
+
+
+.entry-meta {
+	
+	span {
+		margin: 0 10px 0 0;
+		
+
+		span {
+			margin: 0;
+		}
+
+		i {
+			color: $c2;
+			padding-right: 5px;
+		}
+
+		a {
+			color: $c2;
+		}
+		&:hover {
+			i {
+				color: $c3;			
+			}
+			a {
+				color: $c3;
+			}
+		}
+	}
+
+}
+.entry-footer {
+	
+	span {
+		margin: 0 30px 0 0px;
+		color: $secondary;
+		background-color:$c5;
+		font-size:12px;
+		padding:10px;
+		border-radius:3px;
+		span {
+			margin: 0;
+		}
+
+		i {
+			color: $secondary;
+			padding-right: 5px;
+		}
+
+		a {
+			color: $secondary;
+		}
+		&:hover {
+			i {
+				color: $c3;			
+			}
+			a {
+				color: $c3;
+			}
+		}
+	}
+}
+
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	margin: 0 0 1.5em;
+	padding: 12px;
+	text-align: center;
+	color: $white;
+	background-color: $primary;
+	display: inline-block;
+	a {
+		padding: 5px 10px;   
+		color: $secondary;
+		&:hover {
+			color: $c1;
+		}
+	}
+}
+
+blockquote,q {
+	position: relative;
+	margin: 0;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-top: 30px;  
+	@include font-size(2);
+	//font-family: $heading_font;
+	padding: 1% 10px 1% 40px;
+	border-radius: 3px;
+
+	&:before {
+		position: absolute;
+		content: "\f10d";
+		@include font-size(2.5);
+		font-family: 'FontAwesome';
+		left: 20px;
+		top: calc(1% + 10px );
+		color: $c2;	
+	}	
+
+	p {
+		margin-bottom: 0;
+		@include font-size(2);
+		padding: 20px;
+		color: $c2;
+		position: relative;
+	
+		cite {
+			font-style: normal;
+			text-transform: uppercase;
+			color: $white;
+		}
+		a, a:visited {
+			color: $white;
+			@include font-size(1.4);
+		}
+
+		a:hover {
+			color: $c2;
+		}
+	}
+}
+
+.related-posts {
+	padding: 20px 0;
+	ul#primal-related-posts {
+		list-style-type: none;
+		margin: 0;
+		li {
+			width: 18%;
+			float: left;
+			margin: 1%;
+			line-height: normal;
+			a {
+				line-height: normal;
+			}
+		}
+	}
+}
+
+.post  {
+    position:relative;
+	.latest-content {
+		
+		h1.entry-title {
+			@include font-size(3.2);
+			margin-bottom: 0;
+		}
+		.entry-meta {
+			span {
+				font-size:13px;
+			}
+		}
+		.entry-content {
+             h1,h2,h3,h4,h5,h6 {
+             	line-height: 4.8rem;
+             }
+			p {
+				color:$secondary;
+				//line-height:24px;
+			}
+		}
+		.entry-footer {
+			display:none;
+		}
+		a.more-link {
+			position:absolute;
+			bottom:0%;
+			right:0%;
+			border-radius:0;
+			padding:5px 10px 5px 20px;
+			background:$c2;
+			text-transform:uppercase;
+			&:before {
+				position:absolute;
+				content:"\f067";
+				font-family: "FontAwesome";
+				left:7px;
+				font-size:10px;
+				top: 10px;
+			}
+			&:hover {
+				background:$primary;
+			}
+		}
+	}
+}

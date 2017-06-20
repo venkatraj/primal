@@ -1,0 +1,111 @@
+/*
+Theme Name: Primal
+Theme URI: http://www.genexthemes.com/primal/
+Author: V. Uma Rani
+Author URI: http://www.genexthemes.com/
+Description: Primal comes with modern, stylish and responsive design. It uses skeleton framework for grids which keeps minimal css. Stylesheet is generated using SASS and so stays DRY. Best suited for Corporate/Business/Blog sites. There is no theme options panel, instead uses Customizer, core feature of WordPress and comes with lots of options to customize. Has 4 Footer Widget Areas.
+Version: 1.0.8
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: primal
+Tags:  blog, custom-menu, custom-background, featured-images, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns
+
+Primal WordPress Theme, Copyright (C) 2017, V. Uma Rani
+Primal is distributed under the terms of the GNU GPL
+
+Primal is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Reset
+2.0 Grid
+3.0 Typography
+4.0 Elements
+	4.1 Forms
+5.0 Navigation
+	5.1 Links
+	5.2 Menus
+6.0 Media
+	6.1 Captions
+	6.2 Galleries	
+7.0 Modules
+	7.1 Accessibility
+	7.2 Alignments
+	7.3 Clearings
+	7.4 Infinite scroll
+8.0 Header
+9.0 Primary
+10.0 Secondary
+11.0 Footer
+12.0 Responsiveness
+
+--------------------------------------------------------------*/
+@import "00_setup/variables/variables";
+@import "00_setup/mixins/mixins-master";
+
+/*--------------------------------------------------------------
+1.0 Reset
+--------------------------------------------------------------*/
+@import "01_reset/reset";
+
+/*--------------------------------------------------------------
+2.0 Grid
+--------------------------------------------------------------*/
+@import "02_grid/grid";
+
+/*--------------------------------------------------------------
+3.0 Typography
+--------------------------------------------------------------*/
+@import "03_typography/typography";
+
+/*--------------------------------------------------------------
+4.0 Elements
+--------------------------------------------------------------*/
+@import "04_elements/elements";
+
+/*--------------------------------------------------------------
+5.0 Navigation
+--------------------------------------------------------------*/
+@import "05_navigation/navigation";
+
+/*--------------------------------------------------------------
+6.0 Media
+--------------------------------------------------------------*/
+@import "06_media/media";
+
+/*--------------------------------------------------------------
+7.0 Modules
+--------------------------------------------------------------*/
+@import "07_modules/modules";
+
+/*--------------------------------------------------------------
+8.0 Header
+--------------------------------------------------------------*/
+@import "08_header/header";
+
+/*--------------------------------------------------------------
+9.0 Primary
+--------------------------------------------------------------*/
+@import "09_primary/primary";
+
+/*--------------------------------------------------------------
+10.0 Secondary
+--------------------------------------------------------------*/
+@import "10_secondary/secondary";
+
+/*--------------------------------------------------------------
+11.0 Footer
+--------------------------------------------------------------*/
+@import "11_footer/footer";
+
+/*--------------------------------------------------------------
+12.0 Responsiveness
+--------------------------------------------------------------*/
+@import "12_responsiveness/responsiveness";

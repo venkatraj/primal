@@ -1,0 +1,17 @@
+a {
+	color: $primary;
+	text-decoration: none;
+	@include transition-default(all, 0.5s, ease);
+
+	&:visited {
+		color: $primary;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $secondary;
+		outline: none;
+  		outline-offset: 0;
+	}
+}

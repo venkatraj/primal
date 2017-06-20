@@ -1,0 +1,51 @@
+.widget_search {
+	.search-form {
+		position: relative;
+		
+		label {
+			display: block;		
+		}
+
+		input[type="search"] {
+			color: $secondary;
+			width: 100%;
+			padding: 5px;
+			background: transparent;
+		}
+		input[type="search"]:focus {
+			background: $white;
+			color: $secondary!important;
+		}
+		input[type="submit"]  {
+			border: 0;
+			position: absolute;     
+			right:-11px;
+			top: 1px;
+			text-indent: -9999em;  
+			height: 37px;   
+			background:$primary url("images/icon-search-white.png") no-repeat 60% 50%;	
+		}	   
+	}
+} 
+ 
+.nav-wrap {
+	.search-form {
+		top: 13px;
+		text-align: right;
+		  position: relative;
+		  margin: 0px 10px;
+
+			
+			 .search-submit {
+			    position: absolute;
+			    right: -5px;
+			    margin: 0;
+			    padding:5px;
+			    top: 10px;   
+			    border: none;
+			    color: transparent;
+			    
+			}
+			
+	}
+}    

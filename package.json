@@ -1,0 +1,32 @@
+{
+  "name": "primal",
+  "version": "1.0.0",
+  "description": "gym theme",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2"
+  },
+  "devDependencies": {
+    "gulp-sort": "^2.0.0",
+    "gulp-translator": "^0.2.0",
+    "gulp-wp-pot": "^2.0.4"
+  }, 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gym",
+    "spa"
+  ],
+  "author": "V. Uma Rani",
+  "license": "ISC"
+}

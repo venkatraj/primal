@@ -1,0 +1,18 @@
+.widget_nav_menu {
+	a {
+		display: block;
+	}
+	ul.sub-menu li {
+		text-indent: 0;
+	}
+
+	ul.sub-menu {
+		padding-top: 0 !important;
+		//margin-left: -10px;
+		padding-left: 0;
+		margin-top: 15px !important;
+			li {
+				//padding-left: 25px;
+			}
+		}
+}

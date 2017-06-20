@@ -1,0 +1,164 @@
+.widget-area  {
+
+		margin-top: 1.5em;
+
+		h4.widget-title {
+			margin-bottom: 30px;
+			padding-bottom: 10px;
+			font-size:20px;
+			position:relative;
+			text-transform:uppercase;
+			&:after {
+				position:absolute;
+				content:"";
+				width:18%;
+				bottom:0px;
+				left:0px;
+				border-bottom:3px solid $primary;
+
+			}
+		}
+		
+		ul {
+		
+			 li {
+				padding: 8px 0px 15px;
+
+				a {
+					color: $c2;
+					&:hover {
+					 color: $primary;
+					}
+				}
+
+				li:last-child {
+					border-bottom: 0;
+					padding-bottom: 0;
+				}
+
+				ul.children,
+				.sub-menu {
+					padding-top: 5px;
+					li:last-child {
+						padding-bottom: 0;
+					}
+				}
+			}
+
+		}
+
+		select {
+			width: 100%;
+			background: url('images/down.png') no-repeat 95% 50%;
+			-moz-appearance: none;
+			border: 1px solid $c1;
+			padding: 5px 10% 5px 3%;
+
+		}
+
+	}
+
+.widget-area {
+	ul li {
+		padding-left: 10px;
+		@include transition-default(all, 0.5s, ease);
+		color:$c2;
+		li {
+			padding-left: 5px;
+		}
+		&:hover {
+			background-position:10px 16px;
+		}
+	}
+
+	ul.children {
+		padding-top: 0 !important;
+		margin-left: -25px;
+		padding-left: 0;
+		margin-top: 15px !important;
+		li { 
+			padding-left:10px;
+			list-style:disc;
+			background-position: 25px 16px;
+			&:hover {
+				background-position: 37px 16px;
+			}
+		}
+
+		ul.children {
+			margin-left: -50px;
+			li {
+				padding-left: 10px;
+				list-style:disc;
+				background-position: 50px 16px;
+				&:hover {
+					background-position: 67px 16px;
+				}
+			}
+			ul.children {
+				margin-left: -75px;
+				li {
+					padding-left: 10px;
+					list-style:disc;
+					background-position: 75px 16px;
+					&:hover {
+						background-position: 92px 16px;
+					}
+				}		
+			}					
+		}
+
+	}	
+}	
+
+#secondary .widget,.site-footer .widget,.site-header .widget {
+	margin: 0 0 3.5em 0;
+
+	ul, ol {
+		padding: 0;
+		margin: 0;
+		padding-left: 12px;
+	}
+
+
+	/* Make sure select elements fit in widgets */
+	select {
+		max-width: 100%;
+	}
+
+}
+.site-header .widget {
+	margin:0;
+}
+
+
+#secondary .left-sidebar aside {
+	margin: 0 0 5.5em 0;	
+	&:last-child {
+	     margin-bottom:0;
+	}
+}
+
+#secondary #recentcomments a {
+	color: $c2 ;
+	&:hover {
+		color: $primary;
+	}
+}
+.site-info .left-sidebar,.top-nav,.top-right {
+	.widget-title {
+		display: none;
+    }
+}
+
+@import "calendar";
+
+@import "rss";
+
+@import "search";
+
+@import "text";
+
+@import "tag_cloud";
+
+@import "widget_nav_menu";

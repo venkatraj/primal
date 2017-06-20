@@ -1,0 +1,20 @@
+#secondary {
+	 padding-left: 30px;
+	// margin-top:0;
+}
+
+.right-sidebar {
+ //padding-left: 0px!important;
+ //padding-right: 50px;
+}
+
+#content div#secondary:first-of-type {
+	 padding-left: 0px!important;
+	 padding-right: 50px;
+}
+
+#secondary .left-sidebar {
+    padding: 0px 10px 40px;
+}
+
+@import "widgets/widgets"

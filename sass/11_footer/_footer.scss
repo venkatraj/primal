@@ -1,0 +1,128 @@
+.site-footer .footer-widgets {
+	margin-top: 0;
+}
+	
+.site-footer {
+	background: $secondary;
+	.footer-widgets {
+		padding: 90px 0 50px;
+		color:$c5;
+		h4.widget-title {
+			color: $white;
+			@include font-size(2.6);
+			text-transform: uppercase;
+		}
+
+	    .alpha,.alpha aside {
+	      margin-left:0;
+	    }
+
+	    .omega,.omega aside {
+	      margin-right:0; 
+	    }
+	    omega {
+	    	float: right;
+	    }
+		aside {
+	      margin: 0px 30px;
+	    }
+
+		ul li {
+			padding-bottom: 5px;
+			padding-top: 5px;
+			@include transition-default(all, 0.5s, ease);
+			&:hover {
+				background-position:10px 12px;
+			}
+		}
+
+		ul.children,
+		.widget_nav_menu ul.sub-menu {
+			border-color: rgba($white, 0.2);
+		}
+		.calendar_wrap {
+			td,th {
+				color: $white;
+			}
+			 a {
+				color: $white;
+				&:hover {
+					color: $primary;
+				}
+			}
+			tbody tr:nth-child(odd) {
+				th {
+					background-color:$secondary;
+					color:$white;
+				}
+				td {
+					background-color:$secondary;
+					color:$white;	
+				}
+			}
+			tbody tr:nth-child(even) {
+			th,td{
+					background-color:$secondary;
+					color:$white;
+				}
+			}
+			thead th{
+				color:$secondary;
+			}
+		}
+		.widget_calendar table caption {
+			background: $primary;
+		}
+
+		select {
+			width: 100%;
+			background: $white url('images/down.png') no-repeat 95% 50% white;
+			-moz-appearance: none;
+			border: 1px solid $c1;
+			padding: 5px 10% 5px 3%;
+
+		}
+		.widget_search .search-form input[type="search"] {
+			color: $white;
+		}
+
+		a {
+			color: $white;
+			&:hover{
+				color: $primary;
+			}
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+		.widget_nav_menu li{
+			border-bottom: none;
+			ul.sub-menu {
+				border-top: none;
+				margin-left:12px;
+			}
+		}
+
+		.widget_tag_cloud a:hover {
+			color: $white;
+		}
+
+		ul li {
+			//background: url("images/left.png") no-repeat;
+			&:hover {
+				//background: url("images/right.png") no-repeat;
+			}
+		}
+
+		.widget_rss ul li {
+			background: none;
+		}
+
+	}
+}
+
+
+
+
+@import "bottom-footer";

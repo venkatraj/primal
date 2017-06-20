@@ -1,0 +1,153 @@
+.site-header,.home.blog .site-header {
+	border-bottom: 1px solid $c1;
+}
+
+.branding {     
+	
+
+	.site-branding {
+		text-align: left;
+		position: relative;
+		margin-top: 35px;
+		.site-description {
+			@include font-size(1.4);
+			color: $c2;
+			font-family: $copy_font;
+			padding: 0px 10px 10px 0px;
+			position: relative;
+			margin-bottom:0;
+			margin-top: -12px;
+			
+		}
+
+		.site-title {
+			margin-bottom: 0;
+			@include font-size(3);
+			a {
+				display: block;
+			}
+			
+			a:hover {
+				color: $primary;
+			}
+		}	
+
+	}
+}
+
+.sticky-nav {
+ 	position: fixed;
+	top: -2px;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.admin-bar .nav-wrap.sticky-nav {
+   top: 30px;
+}
+
+.no-sidebar {
+ 	float: none;
+ 	margin: 0 auto;
+ 	display: block;
+}
+
+
+.nav-wrap {
+
+	.header-search-box {
+		.search-form {
+			position: absolute;
+			right: 0px;
+			top: 46px; 
+			z-index:3;
+	    }
+
+		.search-field {
+			background-color: transparent;
+			//background-image: url(http://api.ning.com:80/files/dr2jDpSXWFhyuoGJ4YR5Fu-PwuqLz70YxRaUcpdKNxf2HI5ECzddyx3NHuPz-MB4ujGS4rEtdtS-aQoFlQrtv*XwVOu*AvC8/searchicon.png);
+			background-position: calc(100% - 15px) center;
+			background-repeat: no-repeat;
+			background-size: 24px 24px;
+			border: none;
+			cursor: pointer;
+			height: 45px;
+			margin: 3px 0;
+			padding: 3px 34px 3px 10px; 
+			position: relative;
+			width: 0; 
+			z-index:2;
+		}
+
+		.search-field:focus {
+			background-color: $secondary;
+			background-image: url("images/icon-search-white.png");
+			background-size: 15px 16px;
+			border: 12px solid rgba($white,0.8);
+			cursor: text;
+			outline: 0;
+			width: 230px;
+			top: 89px;
+			color: $white;
+			box-shadow: 0 1px 0 $primary; 
+			-webkit-transition: width 400ms ease, background 400ms ease;
+			transition:         width 400ms ease, background 400ms ease;
+
+		}
+
+		.search-submit {
+		   // display: none;
+		   background-image: url(http://api.ning.com:80/files/dr2jDpSXWFhyuoGJ4YR5Fu-PwuqLz70YxRaUcpdKNxf2HI5ECzddyx3NHuPz-MB4ujGS4rEtdtS-aQoFlQrtv*XwVOu*AvC8/searchearchicon.png);
+		    background-position: 98% center;
+			background-repeat: no-repeat;
+			background-size: 24px 24px;
+			background-color: transparent;
+			&:hover {
+				background-color: none;
+			}
+			&:focus {
+				box-shadow:none;
+			}
+		}
+
+		input[type="search"] {
+		  -webkit-appearance: textfield;
+		}
+	}
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  background: $c1;
+  position: relative;
+  padding:5px 0px;
+  margin-top: 0;
+  a {
+    color: $secondary;
+    &:hover {
+      color: $primary;
+    }
+  }
+  .breadcrumb-left {
+      h4 {
+        @include font-size(2.5);
+        text-transform: uppercase;
+        color: $secondary;
+        margin-bottom:0;
+        font-weight:600;
+      }
+  }
+
+  .breadcrumb-right {
+   text-align: right;
+   color: $secondary;
+   float: right;
+   margin-top: 8px;
+    #crumbs{
+      
+    }
+  }
+}
+
+
+@import "top-header";

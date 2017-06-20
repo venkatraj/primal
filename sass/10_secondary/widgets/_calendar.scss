@@ -1,0 +1,87 @@
+.widget_calendar {
+		table {
+			th, td {
+				text-align: center;
+				padding: 7px 5px;
+				border-bottom:1px solid $c1;
+				a {
+					display: block;
+					color: $secondary;
+					&:hover {
+						color: $primary;
+					}
+				}
+			}
+			thead {
+				border-bottom:1px solid $c1;
+
+			}
+			tfoot{
+				border:0;
+			}
+			tr {
+				border-bottom:1px solid $c1;
+			}
+			th {
+				color:$secondary;
+				font-weight: 700;
+				border-right:1px solid $c1;
+				&:first-child {
+					border-left:1px solid $c1;
+				}
+			}
+			td {
+				border-right:1px solid $c1;
+				&:first-child {
+					border-left:1px solid $c1;
+				}
+			}
+			td#prev {
+				text-align: left;
+			}	
+
+			td#next {
+				text-align: right;
+			}
+			tfoot {
+				td:first-child,tr,td{
+					border:none;
+				}
+			}
+			tbody tr:nth-child(even) {
+			th,td {
+					background-color:$white;
+					color: $secondary;
+				}
+			}
+			tbody tr:nth-child(odd) {
+				th {
+					background-color:$white;
+					color: $secondary;
+				}
+				td {
+					background-color:$white;	
+					color: $secondary;
+				}
+			}
+			caption {
+				text-align: center;
+				background-color: $primary;
+				color: $white;
+				padding: 5px 0;
+				position:relative;	
+			}
+
+
+		}
+		
+
+	}
+
+
+/* Footer */
+.site-footer .widget_calendar table {
+	a {
+		color: $primary;
+	}	
+}

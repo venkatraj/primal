@@ -1,0 +1,48 @@
+table {
+	
+	margin: 0 0 1.5em;
+	width: 100%;
+	
+	th {
+		font-family: $heading_font;	
+		a {
+			font-weight: 700;
+			display:block;
+			text-align:center;
+		}
+	}
+
+	td, th {
+		padding:15px 20px;
+		
+	}
+	thead tr th {
+		font-weight:700;
+		&:first-child {
+			display:block;
+			text-align:center;
+		}
+	}	
+	thead tr {
+		background-color:$c1;
+	}
+	tbody tr:nth-child(even) {
+		th {
+			background-color:$c4;
+		}
+	}
+	tbody tr:nth-child(odd) {
+		th {
+			background-color:$c1;
+		}
+		td {
+			background-color:$c4;	
+		}
+	}
+	tbody {
+		td {
+			color:$c2;
+		}
+	}
+}
+	

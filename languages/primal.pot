@@ -1,0 +1,694 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Primal\n"
+"POT-Creation-Date: 2017-06-19 10:41+0530\n"
+"PO-Revision-Date: 2017-06-19 10:41+0530\n"
+"Last-Translator: \n"
+"Language-Team: Genex\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_ex:1,2c;_n_noop:1,2;_n_noop:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: ../single.php:35
+msgid "About Author:"
+msgstr ""
+
+#: ../footer.php:29
+#, php-format
+msgid "<p>Powered by <a href=\"%1$s\" target=\"_blank\">WordPress</a>"
+msgstr ""
+
+#: ../footer.php:31
+#, php-format
+msgid ""
+"Theme: Primal by <a href=\"%1$s\" target=\"_blank\" rel=\"designer\">Genex "
+"Themes</a></p>"
+msgstr ""
+
+#: ../front-page.php:38 ../includes/template-tags.php:440
+#: ../template-parts/content.php:58
+msgid "Read More"
+msgstr ""
+
+#: ../search.php:25
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../comments.php:73
+msgid "Post Comments"
+msgstr ""
+
+#: ../comments.php:75
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../comments.php:83
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:88
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:93
+msgid "Website"
+msgstr ""
+
+#: ../functions.php:53
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:156
+msgid "Post One"
+msgstr ""
+
+#: ../functions.php:157 ../functions.php:163
+msgid ""
+"<h2>Welcome to WP Theme</h2> Integer posuere erat a ante venenatis dapibus "
+"posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Etiam "
+"porta sem malesuada magna mollis euismod.<p class=\"portfolio-readmore\"><a "
+"class=\"btn btn-mini more-link\" href=\"#\">Read More</a></p>"
+msgstr ""
+
+#: ../functions.php:162
+msgid "Post Two"
+msgstr ""
+
+#: ../functions.php:190
+msgid "slider one"
+msgstr ""
+
+#: ../functions.php:194
+msgid "Page Images"
+msgstr ""
+
+#: ../functions.php:231
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:240
+msgid "Top Left"
+msgstr ""
+
+#: ../functions.php:249
+msgid "Top Right"
+msgstr ""
+
+#: ../functions.php:259
+#, php-format
+msgid "Footer %d"
+msgstr ""
+
+#: ../functions.php:269
+msgid "Footer Nav"
+msgstr ""
+
+#: ../includes/options-config.php:2
+msgid "Page Builder"
+msgstr ""
+
+#: ../includes/options-config.php:3
+msgid ""
+"Primal Pro supports Page Builder. All our shortcodes can be used as widgets "
+"too. You can drag and drop our widgets with page builder visual editor."
+msgstr ""
+
+#: ../includes/options-config.php:4
+msgid "Page Layout"
+msgstr ""
+
+#: ../includes/options-config.php:5
+msgid ""
+"Primal Pro offers many different page layouts so you can quickly and easily "
+"create your pages with various layout without any hassle!"
+msgstr ""
+
+#: ../includes/options-config.php:6 ../includes/options-config.php:293
+msgid "Unlimited Sidebar"
+msgstr ""
+
+#: ../includes/options-config.php:7
+msgid ""
+"Unlimited sidebars allows you to create multiple sidebars. Check out our "
+"demo site to see how different pages displays different sidebars!"
+msgstr ""
+
+#: ../includes/options-config.php:8
+msgid "Shortcode Builder"
+msgstr ""
+
+#: ../includes/options-config.php:9
+msgid ""
+"With our shortcode builder and lots of shortcodes, you can easily create "
+"nested shortcodes and build custom pages!"
+msgstr ""
+
+#: ../includes/options-config.php:10
+msgid "Multi Portfolio"
+msgstr ""
+
+#: ../includes/options-config.php:11
+msgid ""
+"7 portfolio layouts with Isotope filtering, 3 blog layouts and multiple "
+"other alternate layouts for interior pages!"
+msgstr ""
+
+#: ../includes/options-config.php:12
+msgid "Typography"
+msgstr ""
+
+#: ../includes/options-config.php:13
+msgid ""
+"Primal Pro loves typography, you can choose from over 500+ Google Fonts and "
+"Standard Fonts to customize your site!"
+msgstr ""
+
+#: ../includes/options-config.php:14
+msgid "Awesome Sliders"
+msgstr ""
+
+#: ../includes/options-config.php:15
+msgid ""
+"Primal Pro includes two types of slider. You can use both Flex and Elastic "
+"sliders anywhere in your site."
+msgstr ""
+
+#: ../includes/options-config.php:16
+msgid "Woo Commerce"
+msgstr ""
+
+#: ../includes/options-config.php:17
+msgid ""
+"Primal Pro has full design/code integration for WooCommerce, your shop will "
+"look as good as the rest of your site!"
+msgstr ""
+
+#: ../includes/options-config.php:18
+msgid "Custom Widget"
+msgstr ""
+
+#: ../includes/options-config.php:19
+msgid ""
+"We offer many custom widgets that are stylized and ready for use. Simply "
+"drag &amp; drop into place to activate!"
+msgstr ""
+
+#: ../includes/options-config.php:20
+msgid "Advanced Admin"
+msgstr ""
+
+#: ../includes/options-config.php:21
+msgid ""
+" you can customize any part of your site quickly and easily using customize "
+"options!"
+msgstr ""
+
+#: ../includes/options-config.php:22
+msgid "Font Awesome"
+msgstr ""
+
+#: ../includes/options-config.php:23
+msgid ""
+"Font Awesome icons are fully integrated into the theme. Use them anywhere in "
+"your site in 6 different sizes!"
+msgstr ""
+
+#: ../includes/options-config.php:24
+msgid "Responsive Layout"
+msgstr ""
+
+#: ../includes/options-config.php:25
+msgid ""
+"Primal Pro is fully responsive and can adapt to any screen size. Resize your "
+"browser window to view it!"
+msgstr ""
+
+#: ../includes/options-config.php:26
+msgid "Testimonials"
+msgstr ""
+
+#: ../includes/options-config.php:27
+msgid ""
+"With our testimonial post type, shortcode and widget, Displaying "
+"testimonials is a breeze."
+msgstr ""
+
+#: ../includes/options-config.php:28
+msgid "Social Media"
+msgstr ""
+
+#: ../includes/options-config.php:29
+msgid ""
+"Want your users to stay in touch? No problem, primal Pro has Social Media "
+"icons all throughout the theme!"
+msgstr ""
+
+#: ../includes/options-config.php:30 ../includes/options-config.php:263
+msgid "Google Map"
+msgstr ""
+
+#: ../includes/options-config.php:31
+msgid ""
+"Primal Pro includes Goole Map as shortcode and widget. So, you can use it "
+"anywhere in your site!"
+msgstr ""
+
+#: ../includes/options-config.php:32
+msgid "View Demo"
+msgstr ""
+
+#: ../includes/options-config.php:33
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: ../includes/options-config.php:116
+msgid "Primal Theme"
+msgstr ""
+
+#: ../includes/options-config.php:118
+msgid "Upgrade To Primal Pro"
+msgstr ""
+
+#: ../includes/options-config.php:148
+msgid ""
+"<div class=\"about-text\"> Primal comes with modern, stylish and responsive "
+"design. It uses skeleton framework for grids which keeps minimal css. The "
+"theme is very versatile and can also be easily used by various types of "
+"corporations, business and any kind of sites. There is no theme options "
+"panel, instead uses Customizer, core feature of WordPress and comes with "
+"lots of options to customize.</div>"
+msgstr ""
+
+#: ../includes/options-config.php:150 ../includes/options-config.php:300
+#, php-format
+msgid "Buy %1s Pro - $39"
+msgstr ""
+
+#: ../includes/options-config.php:218
+msgid "Flex Slider"
+msgstr ""
+
+#: ../includes/options-config.php:223
+msgid "Support"
+msgstr ""
+
+#: ../includes/options-config.php:228
+msgid "Responsive Design"
+msgstr ""
+
+#: ../includes/options-config.php:233
+msgid "Custom Logo Option"
+msgstr ""
+
+#: ../includes/options-config.php:238
+msgid "Social Links"
+msgstr ""
+
+#: ../includes/options-config.php:243
+msgid "Unlimited color option"
+msgstr ""
+
+#: ../includes/options-config.php:248
+msgid "Elastic Slider"
+msgstr ""
+
+#: ../includes/options-config.php:253
+msgid "Page Builder Support"
+msgstr ""
+
+#: ../includes/options-config.php:258
+msgid "Page Templates"
+msgstr ""
+
+#: ../includes/options-config.php:268
+msgid "Demo Content"
+msgstr ""
+
+#: ../includes/options-config.php:273
+msgid "Polylang Compatible"
+msgstr ""
+
+#: ../includes/options-config.php:278
+msgid "Multiple Portfolio Layouts"
+msgstr ""
+
+#: ../includes/options-config.php:283
+msgid "Multiple Blog Layouts"
+msgstr ""
+
+#: ../includes/options-config.php:288
+msgid "Page Animation"
+msgstr ""
+
+#: ../includes/options-config.php:319 ../includes/options-config.php:320
+msgid "Theme Options"
+msgstr ""
+
+#: ../includes/options-config.php:323
+msgid "General"
+msgstr ""
+
+#: ../includes/options-config.php:324
+msgid "General settings that affects overall site"
+msgstr ""
+
+#: ../includes/options-config.php:328
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: ../includes/options-config.php:334
+msgid "Select Breadcrumb Character"
+msgstr ""
+
+#: ../includes/options-config.php:345
+msgid "Enable Numeric Page Navigation"
+msgstr ""
+
+#: ../includes/options-config.php:346
+msgid ""
+"Check to display numeric page navigation, instead of Previous Posts / Next "
+"Posts links."
+msgstr ""
+
+#: ../includes/options-config.php:352
+msgid "Website Layout Options"
+msgstr ""
+
+#: ../includes/options-config.php:353
+msgid "Select main content and sidebar alignment."
+msgstr ""
+
+#: ../includes/options-config.php:355
+msgid "Sidebar Left"
+msgstr ""
+
+#: ../includes/options-config.php:356
+msgid "Sidebar Right"
+msgstr ""
+
+#: ../includes/options-config.php:357
+msgid "Full Width"
+msgstr ""
+
+#: ../includes/options-config.php:358
+msgid "No Sidebar"
+msgstr ""
+
+#: ../includes/options-config.php:366
+msgid "Header"
+msgstr ""
+
+#: ../includes/options-config.php:367
+msgid "Header options"
+msgstr ""
+
+#: ../includes/options-config.php:371
+msgid "Logo as Title"
+msgstr ""
+
+#: ../includes/options-config.php:377
+msgid "Show site Tagline"
+msgstr ""
+
+#: ../includes/options-config.php:383
+msgid "Show Search box in Navigation"
+msgstr ""
+
+#: ../includes/options-config.php:391
+msgid "Footer"
+msgstr ""
+
+#: ../includes/options-config.php:392
+msgid "Footer related options"
+msgstr ""
+
+#: ../includes/options-config.php:396
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../includes/options-config.php:402
+msgid "Footer Copyright Text (Validated that it's HTML Allowed)"
+msgstr ""
+
+#: ../includes/options-config.php:403
+msgid "HTML Allowed. <b>This field is even HTML validated! </b>"
+msgstr ""
+
+#: ../includes/options-config.php:409
+msgid "Home"
+msgstr ""
+
+#: ../includes/options-config.php:410
+msgid "Home Page options"
+msgstr ""
+
+#: ../includes/options-config.php:414
+msgid "Enable Home Page Slider Section"
+msgstr ""
+
+#: ../includes/options-config.php:420
+msgid "Slider Posts Category"
+msgstr ""
+
+#: ../includes/options-config.php:425
+msgid "No. of Sliders"
+msgstr ""
+
+#: ../includes/options-config.php:431
+msgid "Enable Home Page Recent Post Section"
+msgstr ""
+
+#: ../includes/options-config.php:432
+msgid "Enable recent post section in home page"
+msgstr ""
+
+#: ../includes/options-config.php:438
+msgid "No. of Recent Posts"
+msgstr ""
+
+#: ../includes/options-config.php:444
+msgid "Enable Home Page Default Content"
+msgstr ""
+
+#: ../includes/options-config.php:445
+msgid "Enable home page default content"
+msgstr ""
+
+#: ../includes/options-config.php:452
+msgid "Blog"
+msgstr ""
+
+#: ../includes/options-config.php:453
+msgid "Blog Related Posts options"
+msgstr ""
+
+#: ../includes/options-config.php:457
+msgid "Enable Featured Image"
+msgstr ""
+
+#: ../includes/options-config.php:463
+msgid "Choose the featured image display type for Blog Page "
+msgstr ""
+
+#: ../includes/options-config.php:465 ../includes/options-config.php:481
+msgid "Large Featured Image"
+msgstr ""
+
+#: ../includes/options-config.php:466 ../includes/options-config.php:482
+msgid "Small Featured Image"
+msgstr ""
+
+#: ../includes/options-config.php:473
+msgid "Enable Single Post Featured Image"
+msgstr ""
+
+#: ../includes/options-config.php:479
+msgid "Choose the featured image display type for Single Page "
+msgstr ""
+
+#: ../includes/options-config.php:489
+msgid " Enable Author Bio Box below single post"
+msgstr ""
+
+#: ../includes/options-config.php:490
+msgid "Show Author information box below single post."
+msgstr ""
+
+#: ../includes/options-config.php:496
+msgid "Show Related posts"
+msgstr ""
+
+#: ../includes/options-config.php:497
+msgid "Show related posts."
+msgstr ""
+
+#: ../includes/options-config.php:503
+msgid "Related Posts Must Be Shown As:"
+msgstr ""
+
+#: ../includes/options-config.php:505
+msgid "Related Posts By Tags"
+msgstr ""
+
+#: ../includes/options-config.php:506
+msgid "Related Posts By Categories"
+msgstr ""
+
+#: ../includes/options-config.php:513
+msgid " Show Comments"
+msgstr ""
+
+#: ../includes/options-config.php:514
+msgid "Show Comments"
+msgstr ""
+
+#: ../includes/template-tags.php:25
+msgid "Post navigation"
+msgstr ""
+
+#: ../includes/template-tags.php:28
+msgid "previous post"
+msgstr ""
+
+#: ../includes/template-tags.php:29
+msgid "next post"
+msgstr ""
+
+#: ../includes/template-tags.php:47 ../includes/template-tags.php:53
+msgid ", "
+msgstr ""
+
+#: ../includes/template-tags.php:49 ../includes/template-tags.php:55
+#, php-format
+msgid "%1$s "
+msgstr ""
+
+#: ../includes/template-tags.php:130
+msgid "Recent Blogs"
+msgstr ""
+
+#: ../includes/template-tags.php:174
+msgid "<i class=\"fa fa-home\"></i>"
+msgstr ""
+
+#: ../includes/template-tags.php:175
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: ../includes/template-tags.php:176
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: ../includes/template-tags.php:177
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: ../includes/template-tags.php:178
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: ../includes/template-tags.php:179
+msgid "Error 404"
+msgstr ""
+
+#: ../includes/template-tags.php:232 ../includes/template-tags.php:233
+#: ../includes/template-tags.php:237 ../includes/template-tags.php:241
+msgid "Y"
+msgstr ""
+
+#: ../includes/template-tags.php:233
+msgid "m"
+msgstr ""
+
+#: ../includes/template-tags.php:233 ../includes/template-tags.php:238
+msgid "F"
+msgstr ""
+
+#: ../includes/template-tags.php:234
+msgid "d"
+msgstr ""
+
+#: ../includes/template-tags.php:304
+msgid "Page"
+msgstr ""
+
+#: ../includes/template-tags.php:345
+msgid "No Comments"
+msgstr ""
+
+#: ../includes/template-tags.php:347
+msgid " Comments"
+msgstr ""
+
+#: ../includes/template-tags.php:349
+msgid "1 Comment"
+msgstr ""
+
+#: ../includes/template-tags.php:353
+msgid "Leave a comment"
+msgstr ""
+
+#: ../includes/template-tags.php:362 ../template-parts/content-page.php:29
+msgid "Edit"
+msgstr ""
+
+#: ../includes/template-tags.php:409 ../includes/template-tags.php:412
+msgid "No Related Posts Yet!"
+msgstr ""
+
+#: ../includes/template-tags.php:465
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s! To fully take advantage of the best "
+"our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome "
+"page</a>"
+msgstr ""
+
+#: ../includes/template-tags.php:466
+msgid "Get started with Primal"
+msgstr ""
+
+#: ../includes/custom-header.php:103
+msgid "Play background video"
+msgstr ""
+
+#: ../includes/custom-header.php:104
+msgid "Pause background video"
+msgstr ""
+
+#: ../template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: ../template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""

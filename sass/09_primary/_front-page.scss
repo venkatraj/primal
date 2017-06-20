@@ -1,0 +1,142 @@
+.home {
+  .site-content {
+      padding-top:0;
+      .site-main {
+        margin-top:0;
+      }
+  }
+  .site-header {
+    border-bottom: none;
+  }
+  .home-divider {
+    display: block;
+    border-top: 1px solid $c1;
+  }
+}
+
+.home.blog .site-content {
+    padding-top: 100px;
+}
+
+/* service title divider */ 
+.title-divider {
+  text-align:center;
+  padding-bottom: 20px;
+  position: relative;
+    &:before {
+      position: absolute;
+      content:"";
+      height: 2px;
+      background: $primary;
+      width: 95px;
+      bottom:0;
+      left: calc(50% - 48px);
+      box-shadow: 10px 0px 0 #fff inset,-10px 0 0 #fff inset;
+      border-left: 25px solid #d7d7d7;
+      border-right: 25px solid #d7d7d7; 
+    }
+}
+
+
+
+/* Flex Recent Post */
+
+.post-wrapper {
+  padding: 100px 0px 0px;
+  position: relative;
+  .latest-posts {
+    padding-top: 50px;
+  }
+  .one-third:nth-child(3n+1) {
+    clear: both;
+  }
+  .latest-post {
+      @include transition-default(all, 0.5s, ease);
+      overflow: hidden; 
+      position: relative;
+      margin-bottom: 2.5em;  
+      background: $white; 
+      border: 1px solid $c1;
+      text-align: left;
+      }
+      h3 {
+          padding: 0px 20px;
+          a {
+            color: $secondary;
+            &:hover {
+               color:$primary;
+            }
+          }
+      } 
+      
+
+      .entry-meta {
+        border: none;
+        margin-bottom:0;
+        padding: 0px 20px 20px 0px;
+        span a ,span i,span {
+          color: $secondary;
+        }
+        span:hover {
+          color: $primary;
+          i,a {
+            color: $primary;
+          }
+        }
+      }
+      
+      .data-structure {
+        display: inline-block;
+        text-align: left;
+      }
+      .latest-post-content  {
+        margin: 0 20px;
+        h1,h2,h3,h4,h5,h6 {
+            line-height: 4.8rem;
+        }
+      }
+      .latest-post-thumb img { 
+        margin-bottom: 20px; 
+        margin-top: 0px;
+      }
+     
+  
+    .portfolio-readmore {
+      a {
+          background-color: $primary;
+
+          &:hover {
+            background-color: $secondary;
+          }
+       }
+    }
+    
+}
+
+.error-404.not-found {
+text-align: center;
+  h1.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+    span {
+      color: $c3;
+      display: block;
+    }
+  }
+}
+
+.no-results,.not-found {
+    input[type="search"] {
+        float: left;
+        width: 75%;
+    }
+    input[type="submit"] {
+        float: left;
+        width: 20%;
+        position: relative;
+        right: -4px;
+        top: -5px;
+    }
+}
+
+

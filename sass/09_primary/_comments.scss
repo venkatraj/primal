@@ -1,0 +1,191 @@
+.comment-content a {
+	word-wrap: break-word;
+}
+.comment-navigation {
+	clear: both;
+}
+
+.comment-content p {
+	
+	margin-top: 15px;
+}
+
+.bypostauthor {
+	display: block;   
+}
+
+h2.comments-title {      
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	line-height: normal;
+}
+
+ol.comment-list {
+	margin: 0;
+	list-style-type: none;
+}
+
+ol.comment-list ol.children {
+	list-style-type: none; 
+	margin-left: 10%;
+
+}
+
+ol.comment-list > li {
+	margin-bottom: 20px;
+}
+
+.comment-body {
+	position: relative;
+}
+
+ol.comment-list .reply {
+	text-align: left;
+    @include font-size(1.4);
+    position: absolute;
+    left: -100px;
+    top: 100px;
+
+    &:hover {
+    	a,&:before  {
+    		color: $secondary;
+    	}
+    }
+    &:before {
+    	position: relative;
+    	right: 7px;
+    	content:"\f112";
+    	font-family: "FontAwesome";
+    	color: $primary;
+    	@include font-size(1.5);
+    	
+    }
+}
+
+.byuser .reply a:hover {
+	color: $white;
+}
+
+
+.comment-author {
+	display: inline;
+	text-transform: uppercase;
+	color: $secondary;
+
+	 img {
+		position: absolute;
+		left: 0;
+	}
+
+	.fn {
+		font-style: normal;	
+		a {
+			color: $primary;
+			&:hover {
+				color: $secondary;
+			}
+		}
+	}
+}
+
+ol.comment-list article {
+	margin-bottom: 50px;
+	width: calc(100% - 140px);
+	float: right;
+	position: relative;
+	z-index:1;
+	min-height: 120px;
+
+	.fn {
+		color: $primary;
+		cursor: pointer;
+		&:hover {
+			color: $secondary;
+		}
+	}
+}
+
+
+ol.comment-list article .comment-author img {
+	top: -5px;
+	left: -120px;
+	width: 80px;
+	height: 80px;
+}
+
+ol.comment-list article {}
+
+ol.comment-list li.byuser {
+	article {
+		//background-color: rgba($secondary, 0.1);
+	}
+
+	.comment-metadata a:hover {
+		color: $secondary;
+	}
+}
+
+.comment-metadata {
+	@include font-size(1.3);
+	margin-top:5px;
+	margin-bottom:20px;
+	a {
+		color: $c2;
+		&:hover {
+			color: $primary;
+		}
+	}
+}
+
+.byuser .comment-metadata a:hover,
+.byuser .comment-content a:hover {
+	color: $white;
+}
+
+
+ol.comment-list  {
+	li {
+		clear:both;
+		.comment-body {
+			border-bottom:1px solid $c1;
+		}
+		ol {
+			clear:both;
+			li {
+				clear:both;
+			}
+		}
+	}
+}
+
+.comment-form {
+	input[type="text"],input[type="email"] {
+		float:left;
+		width:32.5%;
+		margin-top:20px;
+		padding:15px 5px;
+		margin-bottom:20px;
+	}
+	input[type="email"] {
+		margin-right:8px !important;
+		margin-left:8px !important;
+	}
+	.form-submit {
+		float:right;
+		margin-top:15px;
+	}
+}
+
+.comment-respond {
+	h3 {
+		position:relative;
+		&:after {
+			position:absolute;
+			content:"";
+			border-bottom:3px solid $primary;
+			bottom:0px;
+			left:0px;
+			width:5%;
+		}
+	}
+}
