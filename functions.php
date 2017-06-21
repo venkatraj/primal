@@ -105,8 +105,8 @@ function primal_setup() {
 		        	'text' , 
 		        	// Widget $instance -> settings 
 					array(
-					  'title' => 'About Theme',
-					  'text'  => 'Primal Theme elegant and robustly built WordPress theme for posts, Law Firm and Attorney website.'
+					  'title' => __('About Theme','primal'),
+					  'text'  => __('Primal Theme elegant and robustly built WordPress theme for posts, Law Firm and Attorney website.','primal'),
 					)
 				)
 			),
@@ -126,8 +126,8 @@ function primal_setup() {
 		        	'text' , 
 		        	// Widget $instance -> settings 
 					array(
-					  'title' => 'Company Address',
-					  'text'  => 'Honest Bank, 457 Grand Ave,Los Angels, BA 007<br><strong>Email:</strong> <a href="mailto:support@webulous.in">support@webulous.in</a><br><strong>phone:</strong> 0312 3245 2354<br><strong>Fax:</strong> 158 425 252'
+					  'title' => __('Company Address','primal'),
+					  'text'  => __('Company Address BA 007<br><strong>Email:</strong> <a href="#">email.com</a><br><strong>phone:</strong> 1234 4567 8912<br><strong>Fax:</strong> 123 456 789','primal'),
 					)
 				) 
 			),
@@ -138,7 +138,7 @@ function primal_setup() {
 		        	'text' , 
 		        	// Widget $instance -> settings 
 					array(
-					  'text'  => '<ul><li><a href=""><i class="fa fa-facebook"></i></a></li><li><a href=""><i class="fa fa-twitter"></i></a></li><li><a href=""><i class="fa fa-pinterest"></i></a></li></ul>'
+					  'text'  => '<ul><li><a href="#"><i class="fa fa-facebook"></i></a></li><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-pinterest"></i></a></li></ul>'
 					)
 				)
 			),

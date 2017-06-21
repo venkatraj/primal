@@ -3,7 +3,7 @@ Contributors: Genex
 Tags: custom-menu, featured-images, fixed-layout, responsive-layout, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, blog
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -44,6 +44,9 @@ Select 'Blog' section
 Enable/Disable featured images visibility.
 
 == Changelog ==
+= 1.0.9 =
+* Fix Starter content issue
+
 = 1.0.8 =
 * Added header background video option 
 * Added starter content
@@ -60,10 +63,8 @@ Enable/Disable featured images visibility.
 
 == Upgrade Notice ==
 
-= 1.0.8 =
-* Added header background video option 
-* Added starter content
-* Modify admin page
+= 1.0.9 =
+* Fix Starter content issue
 
 Primal WordPress Theme bundles the following third-party resources:
 == Resources ==
