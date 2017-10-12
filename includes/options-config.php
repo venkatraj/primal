@@ -358,7 +358,7 @@ function primal_display_upgrade() {
                                     'no-sidebar' => __('No Sidebar', 'primal'),
                                 ),
                                 'default' => 'right',  
-                                'sanitize_callback' => 'esc_html', 
+                                'sanitize_callback' => 'sanitize_text_field', 
                             ),
 						),
 					),
