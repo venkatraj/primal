@@ -4,7 +4,7 @@ Theme URI: http://www.genexthemes.com/primal/
 Author: V. Uma Rani
 Author URI: http://www.genexthemes.com/
 Description: Primal comes with modern, stylish and responsive design. It uses skeleton framework for grids which keeps minimal css. Stylesheet is generated using SASS and so stays DRY. Best suited for Corporate/Business/Blog sites. There is no theme options panel, instead uses Customizer, core feature of WordPress and comes with lots of options to customize. Has 4 Footer Widget Areas.
-Version: 1.1.0
+Version: 1.1.1
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: primal
@@ -660,7 +660,6 @@ input[type="submit"] {
   padding: 1em 1.5em;
   color: #fff;
   font-weight: 700;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
 button:hover,
@@ -781,7 +780,6 @@ dd {
 a {
   color: #0091ea;
   text-decoration: none;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   a:visited {
     color: #0091ea; }
@@ -1348,7 +1346,6 @@ object {
   top: 89px;
   color: #fff;
   box-shadow: 0 1px 0 #0091ea;
-  -webkit-transition: width 400ms ease, background 400ms ease;
   transition: width 400ms ease, background 400ms ease; }
 
 .nav-wrap .header-search-box .search-submit {
@@ -1897,7 +1894,6 @@ blockquote, q {
   .post-wrapper .one-third:nth-child(3n+1) {
     clear: both; }
   .post-wrapper .latest-post {
-    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     overflow: hidden;
     position: relative;
@@ -2079,7 +2075,6 @@ blockquote, q {
 .woocommerce table.cart input,
 .woocommerce-page #content table.cart input,
 .woocommerce-page table.cart input {
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
 .woocommerce #content input.button,
@@ -2122,9 +2117,7 @@ blockquote, q {
   background: #272727 !important;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #272727), color-stop(100%, #45484d)) !important;
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #272727 0%, #45484d 100%) !important;
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2148,9 +2141,7 @@ blockquote, q {
   background: #666 !important;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #45484d), color-stop(100%, #45484d)) !important;
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #666 0%, #45484d 100%) !important;
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2180,9 +2171,7 @@ blockquote, q {
   background: #f2f9fe;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f9fe), color-stop(100%, #d6f0fd));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #f2f9fe 0%, #d6f0fd 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2220,9 +2209,7 @@ blockquote, q {
   background: #f2f9fe;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f9fe), color-stop(100%, #d6f0fd));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #f2f9fe 0%, #d6f0fd 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2264,9 +2251,7 @@ blockquote, q {
   background: #fceabb;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fceabb), color-stop(50%, #fccd4d), color-stop(51%, #f8b500), color-stop(100%, #fbdf93));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2633,7 +2618,6 @@ blockquote, q {
 
 .widget-area ul li {
   padding-left: 10px;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   color: #6b6b6b; }
   .widget-area ul li li {
@@ -2889,7 +2873,6 @@ blockquote, q {
     .site-footer .footer-widgets ul li {
       padding-bottom: 5px;
       padding-top: 5px;
-      -webkit-transition: all 0.5s ease;
       transition: all 0.5s ease; }
       .site-footer .footer-widgets ul li:hover {
         background-position: 10px 12px; }

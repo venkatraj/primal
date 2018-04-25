@@ -11,7 +11,7 @@ get_header(); ?>
 
         <?php   $sidebar_position = get_theme_mod( 'sidebar_position', 'right' ); 
 				 if( 'left' == $sidebar_position ) :
-					 get_sidebar('left'); 
+					 get_sidebar(); 
 				 endif;  ?>
 
     <div id="primary" class="content-area <?php primal_layout_class(); ?>  columns">

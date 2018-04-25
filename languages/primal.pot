@@ -1,4 +1,4 @@
-# Copyright (C) 2017 primal
+# Copyright (C) 2018 primal
 # This file is distributed under the same license as the primal package.
 msgid ""
 msgstr ""
@@ -28,7 +28,7 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:35, comments.php:52
+#: comments.php:35, comments.php:53
 msgid "Comment navigation"
 msgstr ""
 
@@ -36,35 +36,35 @@ msgstr ""
 msgid " Previous Comments"
 msgstr ""
 
-#: comments.php:37, comments.php:54
+#: comments.php:37, comments.php:55
 msgid "Next Comments"
 msgstr ""
 
-#: comments.php:53
+#: comments.php:54
 msgid "Previous Comments"
 msgstr ""
 
-#: comments.php:64
+#: comments.php:65
 msgid "Comments are closed."
 msgstr ""
 
-#: comments.php:73
+#: comments.php:74
 msgid "Post Comments"
 msgstr ""
 
-#: comments.php:75
+#: comments.php:76
 msgid "Leave a Comment"
 msgstr ""
 
-#: comments.php:83
+#: comments.php:84
 msgid "Name"
 msgstr ""
 
-#: comments.php:88
+#: comments.php:89
 msgid "Email"
 msgstr ""
 
-#: comments.php:93
+#: comments.php:94
 msgid "Website"
 msgstr ""
 
@@ -76,7 +76,7 @@ msgstr ""
 msgid "Theme: Primal by <a href=\"%1$s\" target=\"_blank\" rel=\"designer\">Genex Themes</a></p>"
 msgstr ""
 
-#: front-page.php:38, includes/template-tags.php:440, template-parts/content.php:58
+#: front-page.php:38, includes/template-tags.php:442, template-parts/content.php:58
 msgid "Read More"
 msgstr ""
 
@@ -172,11 +172,15 @@ msgstr ""
 msgid "About Author:"
 msgstr ""
 
-#: includes/custom-header.php:103
+#: template-full-width.php:2
+msgid "Full Width Template"
+msgstr ""
+
+#: includes/custom-header.php:100
 msgid "Play background video"
 msgstr ""
 
-#: includes/custom-header.php:104
+#: includes/custom-header.php:101
 msgid "Pause background video"
 msgstr ""
 
@@ -554,78 +558,86 @@ msgid "No. of Recent Posts"
 msgstr ""
 
 #: includes/options-config.php:444
-msgid "Enable Home Page Default Content"
+msgid "Exclude the Posts from Home Page.Post IDs, separated by commas"
 msgstr ""
 
 #: includes/options-config.php:445
+msgid "Post IDs, separated by commas."
+msgstr ""
+
+#: includes/options-config.php:450
+msgid "Enable Home Page Default Content"
+msgstr ""
+
+#: includes/options-config.php:451
 msgid "Enable home page default content"
 msgstr ""
 
-#: includes/options-config.php:452
+#: includes/options-config.php:458
 msgid "Blog"
 msgstr ""
 
-#: includes/options-config.php:453
+#: includes/options-config.php:459
 msgid "Blog Related Posts options"
 msgstr ""
 
-#: includes/options-config.php:457
+#: includes/options-config.php:463
 msgid "Enable Featured Image"
 msgstr ""
 
-#: includes/options-config.php:463
+#: includes/options-config.php:469
 msgid "Choose the featured image display type for Blog Page "
 msgstr ""
 
-#: includes/options-config.php:465, includes/options-config.php:481
+#: includes/options-config.php:471, includes/options-config.php:487
 msgid "Large Featured Image"
 msgstr ""
 
-#: includes/options-config.php:466, includes/options-config.php:482
+#: includes/options-config.php:472, includes/options-config.php:488
 msgid "Small Featured Image"
 msgstr ""
 
-#: includes/options-config.php:473
+#: includes/options-config.php:479
 msgid "Enable Single Post Featured Image"
 msgstr ""
 
-#: includes/options-config.php:479
+#: includes/options-config.php:485
 msgid "Choose the featured image display type for Single Page "
 msgstr ""
 
-#: includes/options-config.php:489
+#: includes/options-config.php:495
 msgid " Enable Author Bio Box below single post"
 msgstr ""
 
-#: includes/options-config.php:490
+#: includes/options-config.php:496
 msgid "Show Author information box below single post."
 msgstr ""
 
-#: includes/options-config.php:496
+#: includes/options-config.php:502
 msgid "Show Related posts"
 msgstr ""
 
-#: includes/options-config.php:497
+#: includes/options-config.php:503
 msgid "Show related posts."
 msgstr ""
 
-#: includes/options-config.php:503
+#: includes/options-config.php:509
 msgid "Related Posts Must Be Shown As:"
 msgstr ""
 
-#: includes/options-config.php:505
+#: includes/options-config.php:511
 msgid "Related Posts By Tags"
 msgstr ""
 
-#: includes/options-config.php:506
+#: includes/options-config.php:512
 msgid "Related Posts By Categories"
 msgstr ""
 
-#: includes/options-config.php:513
+#: includes/options-config.php:519
 msgid " Show Comments"
 msgstr ""
 
-#: includes/options-config.php:514
+#: includes/options-config.php:520
 msgid "Show Comments"
 msgstr ""
 
@@ -651,6 +663,7 @@ msgctxt "Next post link"
 msgid "%title&nbsp;"
 msgstr ""
 
+#. translators: used between list items, there is a space after the comma
 #: includes/template-tags.php:47, includes/template-tags.php:53
 msgid ", "
 msgstr ""
@@ -659,88 +672,88 @@ msgstr ""
 msgid "%1$s "
 msgstr ""
 
-#: includes/template-tags.php:130
+#: includes/template-tags.php:132
 msgid "Recent Blogs"
 msgstr ""
 
-#: includes/template-tags.php:174
+#: includes/template-tags.php:176
 msgid "<i class=\"fa fa-home\"></i>"
 msgstr ""
 
-#: includes/template-tags.php:175
+#: includes/template-tags.php:177
 msgid "Archive by Category \"%s\""
 msgstr ""
 
-#: includes/template-tags.php:176
+#: includes/template-tags.php:178
 msgid "Search Results for \"%s\" Query"
 msgstr ""
 
-#: includes/template-tags.php:177
+#: includes/template-tags.php:179
 msgid "Posts Tagged \"%s\""
 msgstr ""
 
-#: includes/template-tags.php:178
+#: includes/template-tags.php:180
 msgid "Articles Posted by %s"
 msgstr ""
 
-#: includes/template-tags.php:179
+#: includes/template-tags.php:181
 msgid "Error 404"
 msgstr ""
 
-#: includes/template-tags.php:232, includes/template-tags.php:232, includes/template-tags.php:233, includes/template-tags.php:237, includes/template-tags.php:237, includes/template-tags.php:241
+#: includes/template-tags.php:234, includes/template-tags.php:234, includes/template-tags.php:235, includes/template-tags.php:239, includes/template-tags.php:239, includes/template-tags.php:243
 msgid "Y"
 msgstr ""
 
-#: includes/template-tags.php:233
+#: includes/template-tags.php:235
 msgid "m"
 msgstr ""
 
-#: includes/template-tags.php:233, includes/template-tags.php:238
+#: includes/template-tags.php:235, includes/template-tags.php:240
 msgid "F"
 msgstr ""
 
-#: includes/template-tags.php:234
+#: includes/template-tags.php:236
 msgid "d"
 msgstr ""
 
-#: includes/template-tags.php:304
+#: includes/template-tags.php:306
 msgid "Page"
 msgstr ""
 
-#: includes/template-tags.php:325
+#: includes/template-tags.php:327
 msgctxt "post author"
 msgid " %s"
 msgstr ""
 
-#: includes/template-tags.php:345
+#: includes/template-tags.php:347
 msgid "No Comments"
 msgstr ""
 
-#: includes/template-tags.php:347
+#: includes/template-tags.php:349
 msgid " Comments"
 msgstr ""
 
-#: includes/template-tags.php:349
+#: includes/template-tags.php:351
 msgid "1 Comment"
 msgstr ""
 
-#: includes/template-tags.php:353
+#: includes/template-tags.php:355
 msgid "Leave a comment"
 msgstr ""
 
-#: includes/template-tags.php:362, template-parts/content-page.php:29
+#: includes/template-tags.php:364, template-parts/content-page.php:29
 msgid "Edit"
 msgstr ""
 
-#: includes/template-tags.php:409, includes/template-tags.php:412
+#: includes/template-tags.php:411, includes/template-tags.php:414
 msgid "No Related Posts Yet!"
 msgstr ""
 
-#: includes/template-tags.php:465
+#: includes/template-tags.php:467
 msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
 msgstr ""
 
-#: includes/template-tags.php:466
+#: includes/template-tags.php:468
 msgid "Get started with Primal"
 msgstr ""
 

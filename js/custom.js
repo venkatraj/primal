@@ -3,6 +3,4 @@
 	$(function(){
 		$('.flexslider').flexslider();   
 	});
-
-
 })(jQuery);

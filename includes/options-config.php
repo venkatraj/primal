@@ -236,7 +236,7 @@ function primal_display_upgrade() {
 		                    </tr>
 		                    <tr>
 		                         <td><h3><?php _e('Social Links', 'primal'); ?></h3></td>
-		                         <td class="only-lite"><span class="dashicons-before dashicons-yes"></span></td>
+		                         <td class="only-pro"><span class="dashicons-before dashicons-no-alt"></span></td>
 		                         <td class="only-lite"><span class="dashicons-before dashicons-yes"></span></td>
 		                    </tr>
 		                    <tr>
@@ -438,6 +438,12 @@ function primal_display_upgrade() {
 								'label' => __('No. of Recent Posts', 'primal'),
 								'sanitize_callback' => 'absint',
 								'default' => 6,
+							),
+							'recent_posts_exclude' => array(
+								'type' => 'text',
+								'label' => __('Exclude the Posts from Home Page.Post IDs, separated by commas', 'primal'),
+								'description' => __('Post IDs, separated by commas.','primal'),
+								'sanitize_callback' => 'sanitize_text_field', 
 							),
 							'enable_home_default_content' => array(
                                 'type' => 'checkbox',

@@ -55,9 +55,6 @@ function primal_header_style() {
 			background-image: url(<?php echo esc_url(get_header_image()); ?>);
 			display: block;
 		}
-        .header-inner {
-        	
-        }
         .custom-header-media img {
 				display: none;
 		}
