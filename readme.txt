@@ -2,8 +2,8 @@
 Contributors: Genex
 Tags: custom-menu, featured-images, fixed-layout, responsive-layout, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, blog
 Requires at least: 4.0
-Tested up to: 4.9.5
-Stable tag: 1.1.1
+Tested up to: 4.9.6
+Stable tag: 1.1.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -45,6 +45,11 @@ Enable/Disable featured images visibility.
 
 == Changelog ==
 
+= 1.1.2 = 
+* WPForms Lite plugin recommended. 
+* Scroll to Top option added.
+* Social Sharing Box option added in Single post.
+
 = 1.1.1 =
  * Post Exclude Option added. 
 
@@ -70,8 +75,10 @@ Enable/Disable featured images visibility.
 
 == Upgrade Notice ==
 
-= 1.1.1 =
- * Post Exclude Option added. 
+= 1.1.2 = 
+* WPForms Lite plugin recommended. 
+* Scroll to Top option added.
+* Social Sharing Box option added in Single post.
 
 
 Primal WordPress Theme bundles the following third-party resources:

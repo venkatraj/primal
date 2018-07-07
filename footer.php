@@ -36,6 +36,9 @@
 				</div>
 			</div>
 		</div><!-- .site-info -->
+		<?php if( get_theme_mod('scroll_to_top') ) : ?>
+			<div class="scroll-to-top"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+		<?php endif;  ?>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

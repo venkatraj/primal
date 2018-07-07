@@ -397,6 +397,12 @@ function primal_display_upgrade() {
 								'default' => 1,
 								'sanitize_callback' => 'primal_boolean',
 							),
+							'scroll_to_top' => array(
+								'type' => 'checkbox',
+								'label' => __('Enable Scroll To Top', 'primal'),
+								'default' => 0,
+								'sanitize_callback' => 'primal_boolean',
+							),
 							'copyright' => array(
                                 'type' => 'textarea',
                                 'label' => __('Footer Copyright Text (Validated that it\'s HTML Allowed)', 'primal'),
@@ -474,56 +480,88 @@ function primal_display_upgrade() {
                                 'default' => '1', 
                                 'sanitize_callback' => 'absint',
                             ),
+						),
+					),
+					'single_blog' => array(
+						'title' => __('Single Blog', 'primal'),
+						'description' => __('Single Blog page Related Posts options', 'primal'),
+						'fields' => array(
 							'single_featured_image' => array(
 								'type' => 'checkbox',
 								'label' => __('Enable Single Post Featured Image', 'primal'),
 								'default' => 1,
 								'sanitize_callback' => 'primal_boolean',
 							),
-                            'single_featured_image_size' => array(
-                                'type' => 'radio',
-                                'label' => __('Choose the featured image display type for Single Page ', 'primal'),
-                                'choices' => array(
-                                    '1' => __('Large Featured Image', 'primal'),
-                                    '2' => __('Small Featured Image', 'primal'),       
-                                ),
-                                'default' => '1', 
-                                'sanitize_callback' => 'absint',  
-                            ),
-                             'author_bio_box' => array(
-                                'type' => 'checkbox',
-                                'label' => __(' Enable Author Bio Box below single post', 'primal'),
-                                'description' => __('Show Author information box below single post.', 'primal'),
-                                'default' => 0,
-                                'sanitize_callback' => 'primal_boolean',    
-                            ),
-                            'related_posts' => array(
-                                'type' => 'checkbox',
-                                'label' => __('Show Related posts', 'primal'),
-                                'description' => __('Show related posts.', 'primal'),
-                                'default' => 0, 
-                                'sanitize_callback' => 'primal_boolean', 
-                            ),
-                            'related_posts_hierarchy' => array(
-                                'type' => 'radio',
-                                'label' => __('Related Posts Must Be Shown As:', 'primal'),
-                                'choices' => array(
-                                    '1' => __('Related Posts By Tags', 'primal'),
-                                    '2' => __('Related Posts By Categories', 'primal'),      
-                                ),
-                               'default' => '1', 
-                               'sanitize_callback' => 'absint',    
-                            ),
-                            'comments' => array(
-                                'type' => 'checkbox',
-                                'label' => __(' Show Comments', 'primal'),
-                                'description' => __('Show Comments', 'primal'),
-                                'default' => 1,  
-                                'sanitize_callback' => 'primal_boolean',
-                            ),
+							'single_featured_image_size' => array(
+								'type' => 'radio',
+								'label' => __('Choose the featured image display type for Single Page ', 'primal'),
+								'choices' => array(
+									'1' => __('Large Featured Image', 'primal'),
+									'2' => __('Small Featured Image', 'primal'),       
+								),
+								'default' => '1', 
+								'sanitize_callback' => 'absint',  
+							),
+							'social_sharing_box' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Social Sharing Box below single post', 'primal'),
+								'default' => 0,
+								'sanitize_callback' => 'primal_boolean',    
+							),
+							'facebook_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Facebook Sharing option below single post', 'primal'),
+								'default' => 0,
+								'sanitize_callback' => 'primal_boolean',    
+							),
+							'twitter_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Twitter Sharing option below single post', 'primal'),
+								'default' => 0,
+								'sanitize_callback' => 'primal_boolean',    
+							),
+							'linkedin_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Linkedin Sharing option below single post', 'primal'),
+								'default' => 0,
+								'sanitize_callback' => 'primal_boolean',    
+							),
+							'google-plus_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Google Plus Sharing option below single post', 'primal'),
+								'default' => 0,
+								'sanitize_callback' => 'primal_boolean',    
+							),
+							'email_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Email Sharing option below single post', 'primal'),
+								'default' => 0,
+								'sanitize_callback' => 'primal_boolean',    
+							),
+							'author_bio_box' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Author Bio Box below single post', 'primal'),
+								'default' => 0,
+								'sanitize_callback' => 'primal_boolean',    
+							),
+							'related_posts' => array(
+								'type' => 'checkbox',
+								'label' => __('Show Related posts', 'primal'),
+								'default' => 0, 
+								'sanitize_callback' => 'primal_boolean', 
+							),
+							'related_posts_hierarchy' => array(
+								'type' => 'radio',
+								'label' => __('Related Posts Must Be Shown As:', 'primal'),
+								'choices' => array(
+									'1' => __('Related Posts By Tags', 'primal'),
+									'2' => __('Related Posts By Categories', 'primal'),      
+								),
+								'default' => '1', 
+								'sanitize_callback' => 'absint',    
+							),
 						),
 					),
-
 				)
 			),
 		) 
@@ -552,19 +590,19 @@ if ( ! function_exists( 'primal_footer_copyright' ) ) {
 
     function primal_footer_copyright($string) {
         $allowed_tags = array(    
-                            'a' => array(
-                            	'href' => array(),
-								'title' => array(),
-								'target' => array(),
-                            ),
-							'img' => array(
-								'src' => array(),  
-								'alt' => array(),
-							),
-							'p' => array(),
-							'br' => array(),
-							'em' => array(),
-                            'strong' => array(),
+			'a' => array(
+				'href' => array(),
+				'title' => array(),
+				'target' => array(),
+			),
+			'img' => array(
+				'src' => array(),  
+				'alt' => array(),
+			),
+			'p' => array(),
+			'br' => array(),
+			'em' => array(),
+			'strong' => array(),
         );
         return wp_kses( $string,$allowed_tags);
 

@@ -171,7 +171,7 @@
 
 .comment-navigation .nav-previous,
 .paging-navigation .nav-previous,
-.post-navigation .nav-previous {
+.post-navigation .nav-previous,.posts-navigation .nav-previous {
 	float: left;
 	width: 48%;
 	margin: 1%;
@@ -181,7 +181,7 @@
 
 .comment-navigation .nav-next,
 .paging-navigation .nav-next,
-.post-navigation .nav-next {
+.post-navigation .nav-next,.posts-navigation .nav-next {
 	float: right;
 	text-align: right;
 	width: 47%;

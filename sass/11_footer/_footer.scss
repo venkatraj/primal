@@ -108,17 +108,31 @@
 			color: $white;
 		}
 
-		ul li {
-			//background: url("images/left.png") no-repeat;
-			&:hover {
-				//background: url("images/right.png") no-repeat;
-			}
-		}
-
 		.widget_rss ul li {
 			background: none;
 		}
 
+	}
+	.scroll-to-top {
+		background: $primary;
+		color: $white;
+		bottom: 3%;
+		cursor: pointer;
+		//display: none;
+		position: fixed;
+		right: 20px;
+		z-index: 999;
+		text-align: center;
+		line-height: 40px;
+		width: 40px;
+		@include border-radius(4px);
+		-webkit-transition: background-color 0.3s linear;
+		-moz-transition: background-color 0.3s linear;
+		-o-transition: background-color 0.3s linear;
+		transition: background-color 0.3s linear;
+	}
+	.scroll-to-top:hover {
+		background: rgba($primary, 0.8);
 	}
 }
 
