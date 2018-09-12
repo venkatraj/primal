@@ -4,7 +4,7 @@ Theme URI: http://www.genexthemes.com/primal/
 Author: V. Uma Rani
 Author URI: http://www.genexthemes.com/
 Description: Primal comes with modern, stylish and responsive design. It uses skeleton framework for grids which keeps minimal css. Stylesheet is generated using SASS and so stays DRY. Best suited for Corporate/Business/Blog sites. There is no theme options panel, instead uses Customizer, core feature of WordPress and comes with lots of options to customize. Has 4 Footer Widget Areas.
-Version: 1.1.2
+Version: 1.1.3
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: primal
@@ -1228,12 +1228,12 @@ object {
 .alignleft {
   display: inline;
   float: left;
-  margin-right: 1.5em; }
+  margin-right: 1.5em !important; }
 
 .alignright {
   display: inline;
   float: right;
-  margin-left: 1.5em; }
+  margin-left: 1.5em !important; }
 
 .aligncenter {
   display: block;
@@ -1851,6 +1851,73 @@ blockquote, q {
       top: 10px; }
     .post .latest-content a.more-link:hover {
       background: #0091ea; }
+
+/* Gutenberg CSS style */
+.wp-block-latest-posts.aligncenter {
+  margin-left: 3em; }
+
+.wp-block-verse {
+  color: #4d4d4d; }
+
+.wp-block-quote {
+  border-left: 4px solid black;
+  padding-left: 5px;
+  margin-top: 0px;
+  padding-top: 0px; }
+  .wp-block-quote p {
+    padding: 20px; }
+  .wp-block-quote:before {
+    content: "";
+    border: 0px; }
+  .wp-block-quote cite {
+    margin: 0px;
+    padding-left: 20px; }
+
+.wp-block-quote.is-large {
+  border: 0px;
+  color: #272727; }
+  .wp-block-quote.is-large cite {
+    text-align: right;
+    display: block;
+    color: #333;
+    font-style: italic;
+    padding-right: 20px; }
+
+.wp-block-pullquote {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 0px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  border-left: none !important;
+  margin-bottom: 20px; }
+  .wp-block-pullquote p {
+    padding: 20px; }
+  .wp-block-pullquote:before {
+    content: "";
+    border: 0px; }
+
+.wp-block-pullquote.alignleft {
+  margin-right: 25px; }
+
+.wp-block-pullquote.alignright {
+  margin-left: 25px; }
+
+.wp-block-button a:hover {
+  padding: 11px 24px;
+  box-shadow: 3px 3px black;
+  -webkit-box-shadow: 3px 3px black; }
+
+.wp-block-cover-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.wp-block-audio {
+  text-align: center; }
+
+.wp-block-button.aligncenter {
+  margin-bottom: 1.5em; }
 
 .home .site-content {
   padding-top: 0; }

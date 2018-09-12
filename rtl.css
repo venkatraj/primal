@@ -1156,12 +1156,12 @@ object {
 .alignleft {
   display: inline;
   float: right;
-  margin-left: 1.5em; }
+  margin-left: 1.5em !important; }
 
 .alignright {
   display: inline;
   float: left;
-  margin-right: 1.5em; }
+  margin-right: 1.5em !important; }
 
 .aligncenter {
   display: block;
@@ -1775,6 +1775,73 @@ blockquote, q {
       top: 10px; }
     .post .latest-content a.more-link:hover {
       background: #0091ea; }
+
+
+.wp-block-latest-posts.aligncenter {
+  margin-right: 3em; }
+
+.wp-block-verse {
+  color: #4d4d4d; }
+
+.wp-block-quote {
+  border-right: 4px solid black;
+  padding-right: 5px;
+  margin-top: 0px;
+  padding-top: 0px; }
+  .wp-block-quote p {
+    padding: 20px; }
+  .wp-block-quote:before {
+    content: "";
+    border: 0px; }
+  .wp-block-quote cite {
+    margin: 0px;
+    padding-right: 20px; }
+
+.wp-block-quote.is-large {
+  border: 0px;
+  color: #272727; }
+  .wp-block-quote.is-large cite {
+    text-align: left;
+    display: block;
+    color: #333;
+    font-style: italic;
+    padding-left: 20px; }
+
+.wp-block-pullquote {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 0px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  border-right: none !important;
+  margin-bottom: 20px; }
+  .wp-block-pullquote p {
+    padding: 20px; }
+  .wp-block-pullquote:before {
+    content: "";
+    border: 0px; }
+
+.wp-block-pullquote.alignleft {
+  margin-left: 25px; }
+
+.wp-block-pullquote.alignright {
+  margin-right: 25px; }
+
+.wp-block-button a:hover {
+  padding: 11px 24px;
+  box-shadow: -3px 3px black;
+  -webkit-box-shadow: -3px 3px black; }
+
+.wp-block-cover-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.wp-block-audio {
+  text-align: center; }
+
+.wp-block-button.aligncenter {
+  margin-bottom: 1.5em; }
 
 .home .site-content {
   padding-top: 0; }
