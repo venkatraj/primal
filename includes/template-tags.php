@@ -480,13 +480,3 @@ if(!function_exists('primal_before_header_video')){
 	    <?php } 
 	}
 }
-
-if (!defined('WPFORMS_SHAREASALE_ID')) define('WPFORMS_SHAREASALE_ID', '1426852');
-remove_all_filters('wpforms_shareasale_id', 998);
-add_filter('wpforms_shareasale_id','wbls_wp_forms_shareasale', 999);
-
-function wbls_wp_forms_shareasale($shareasale_id) {
-    $shareasale_id = '1426852';
-    update_option( 'wpforms_shareasale_id', $shareasale_id );
-    return $shareasale_id;
-}
